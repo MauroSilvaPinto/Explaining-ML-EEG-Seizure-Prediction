@@ -28,7 +28,7 @@ Inside the folder for each patient, you should have several files, two for each 
 - seizure_[seizure_number]_data.npy
     - N windows of 5 seconds*1280 samples * 19 channels
     - 1280 dimensions is due to 5 seconds windows of 256Hz of frequency sampling
-    - 19 channels follow the 19-20 system
+    - 19 channels according to the 19-20 system
  - feature_datetimes_[seizure_number].npy
       - N windows of 5 seconds
 
