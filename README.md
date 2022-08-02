@@ -46,20 +46,15 @@ You can not execute these codes as it is necessary the preprocessed data from EE
 - [main_explainability_SVMs.py] - get the classifier time plots for an Ensemble of models (SVMs, in this case). 
 - [main_explainability_DL.py] - get the classifier time plots for a CNN, the LIME explanations (return points of interest to the model), and how to save EEG parts into edf files.
 - [counterFactualExplanation.py] - code that developed counterfactual explanations for segments of interest of the EEG.
+- [test_OnePatient_getPlots_logReg.py] -  code to get all variables from the Log. Reg. pipeline to make the time plots.
 - [test_OnePatient_getPlots_SVMs.py] - code to get all variables from the SVMs pipeline to make the time plots.
-- [test_OnePatient_getPlots_logReg.py] - code to get all variables from the SVMs pipeline to make the time plots.
+
 
 
 ## More Information
-59
 More information, please just check the article at:
-60
-​
-61
-​
-62
+Still not published, peeps!
+
+
 You are free to use any of this material. If you do, please just cite it as:
-63
-Pinto, M., Coelho, T., Leal, A. et al. Interpretable EEG seizure prediction using a multiobjective evolutionary algorithm. Sci Rep 12, 4420 (2022). https://doi.org/10.1038/s41598-022-08322-w
-64
-​
+Let's wait :)
