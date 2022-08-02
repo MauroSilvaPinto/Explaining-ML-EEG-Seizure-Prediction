@@ -1,4 +1,4 @@
-# test code for the log_reg pipeline
+# code to retrieve all the necessary variables to make classifier time plots
 
 import os
 import numpy as np
