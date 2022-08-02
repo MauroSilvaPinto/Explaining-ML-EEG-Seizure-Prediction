@@ -20,8 +20,9 @@ You can not execute this code as it is necessary the preprocessed data from EEG 
 - [freqband_power] - a code to calculate the power in a frequency band.
 - [discr_wavelet_trans.m] - a code to perform wavelet decomposition.
 
-#### Patients directory
-You should have a patient directory with a folder for each patient, with the following structure: pat_[patient_number]_splitted
+### Patients directory
+You should have a patient directory with a folder for each patient, with the following structure:
+- pat_[patient_number]_splitted
 
 Inside the folder for each patient, you should have several files, two for each seizure with the following structure:
 - seizure_[seizure_number]_data.npy
