@@ -20,18 +20,17 @@ You can not execute this code as it is necessary the preprocessed data from EEG 
 - [freqband_power] - a code to calculate the power in a frequency band.
 - [discr_wavelet_trans.m] - a code to perform wavelet decomposition.
 
-### Patients directory
-You should have a patient directory with a folder for each patient, with the following structure:
+#### Patients directory
+You should have a patient directory with a folder for each patient, with the following structure: pat_[patient_number]_splitted
 
-  pat_[patient_number]_splitted
 Inside the folder for each patient, you should have several files, two for each seizure with the following structure:
-  i) seizure_[seizure_number]_data.npy
-    each file should have the following structure:
-    N windows of 5 seconds*1280 samples * 19 channels
-    1280 dimensions is due to 5 seconds windows of 256Hz of frequency sampling
-    19 channels follow the 19-20 system
-  ii) feature_datetimes_[seizure_number].npy
-      N windows of 5 seconds
+- seizure_[seizure_number]_data.npy
+    - each file should have the following structure:
+    - N windows of 5 seconds*1280 samples * 19 channels
+    - 1280 dimensions is due to 5 seconds windows of 256Hz of frequency sampling
+    - 19 channels follow the 19-20 system
+ - feature_datetimes_[seizure_number].npy
+      - N windows of 5 seconds
 
 
 
