@@ -26,7 +26,6 @@ You should have a patient directory with a folder for each patient, with the fol
 
 Inside the folder for each patient, you should have several files, two for each seizure with the following structure:
 - seizure_[seizure_number]_data.npy
-    - each file should have the following structure:
     - N windows of 5 seconds*1280 samples * 19 channels
     - 1280 dimensions is due to 5 seconds windows of 256Hz of frequency sampling
     - 19 channels follow the 19-20 system
