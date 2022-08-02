@@ -27,7 +27,7 @@ You can not execute these codes as it is necessary the preprocessed data from EE
 - [main test.py] - test the model in new seizures and get the performance (seizure sensitivity, FPR/h, and surrogate analysis)
 
 #### Specific functions for each pipeline:
-- [train_onePatient_logReg.py]: get the best grid-search parameters from the ensemble of Logistic Regression (preictal period, k number of features).
+- [train_onePatient_logReg.py]: get the best grid-search parameters from the ensemble of Log. Reg. (preictal period, k number of features).
 - [train_onePatient_SVMs.py]: get the best grid-search parameters from the ensemble of 15 SVMs (preictal period, k number of features, SVM C value).
 - [train_onePatient_CNNs.py]: get the best grid-search parameters from the ensemble of 3 CNNs (preictal period) and saves the correspondent networks.
 - [train_CNN.py]: construct the CNN architecture, train it and save it.
