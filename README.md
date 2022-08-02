@@ -22,8 +22,9 @@ You can not execute these codes as it is necessary the preprocessed data from EE
 - [discr_wavelet_trans.m] - a code to perform wavelet decomposition.
 
 ## Seizure Prediction Pipelines
-You need data to execute these codes, which is not 
-
+3 folders are available, one for each pipeline: Logistic Regression, Ensemble of 15 SVMs, and Ensemble of 3 CNNs.
+- [main_train] - execute it to train a model and/or to get the grid-search parameters (preictal period, k number of features, SVM C value).
+- [main test] - test the model in new seizures and get the performance (seizure sensitivity, FPR/h, and surrogate analysis).
 
 ## Explainability Methods
 
