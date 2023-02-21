@@ -1,5 +1,5 @@
 ## Explaining-ML-EEG-Seizure-Prediction
-This is the code used for the paper "Explaining Machine Learning Models for EEG Seizure Prediction". It provides three different full Machine Learning pipelines for seizure prediction (class-balanced Logistic Regression Model, ensemble of 15 Support Vector Machines (SVMs), and an ensemble of 3 Convolutional Neural Networks (CNNs)), including surrogate analysis. It also provides a series of explainability methods adapted to EEG seizure prediction.
+This is the code used for the paper "Explaining Machine Learning Models for EEG Seizure Prediction", which will be published in the future. It provides three different full Machine Learning pipelines for seizure prediction (class-balanced Logistic Regression Model, ensemble of 15 Support Vector Machines (SVMs), and an ensemble of 3 Convolutional Neural Networks (CNNs)), including surrogate analysis. It also provides a series of explainability methods adapted to EEG seizure prediction.
 
 You can not execute these codes as it is necessary the preprocessed data from EEG recordings. As the used dataset belongs to EPILEPSIAE, we can not make it publicly available online due to ethical concerns. We can only offer the extracted features from non-overlapping windows of 5 seconds, for patient 8902, upon reasonable request. These patient 9802's features are not available on Github due to their memory size.
 
@@ -50,9 +50,7 @@ You can not execute these codes as it is necessary the preprocessed data from EE
 
 
 ## More Information
-More information, please just check the article at:
-Still not published, peeps!
+Still not published, peeps! Wait for it!
 
 
-You are free to use any of this material. If you do, please just cite it as:
-Let's wait :)
+You are free to use any of this material. Just cite the source
