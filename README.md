@@ -49,8 +49,7 @@ You can not execute these codes as it is necessary the preprocessed data from EE
 - [test_OnePatient_getPlots_SVMs.py]: code to get all variables from the SVMs pipeline to make the time plots.
 
 
-## More Information
-Still not published, peeps! Wait for it!
-
+## Please cite this work as:
+Pinto, MF, Batista, J, Leal, A, Lopes, F, Oliveira, A, Dourado, A, et al. The goal of explaining black boxes in EEG seizure prediction is not to explain models' decisions. Epilepsia Open. 2023; 00: 1– 13. https://doi.org/10.1002/epi4.12748 
 
 You are free to use any of this material. Just cite the source
